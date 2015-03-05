@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LabWorks</string>
+    <string name="hello_world">Welcome to Innovative Labs</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detect_text">DetectTextActivity</string>
+
+</resources>
