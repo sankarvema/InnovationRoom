@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/pills">
+
+    <EditText
+        android:id="@+id/field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_hint"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/field"
+        android:layout_marginTop="110dp"
+        android:text="@string/button_text" />
+
+</RelativeLayout>
